@@ -42,8 +42,5 @@ jobs:
       - name: Compile assets
         run: npm run build
 
-      - name: Format code with Laravel Pint
-        run: vendor/bin/pint
-
       - name: Execute tests
         run: vendor/bin/pest
