@@ -1,6 +1,6 @@
 name: Build assets
 
-on: [master, develop]
+on: [push]
 
 jobs:
   build-assets:
