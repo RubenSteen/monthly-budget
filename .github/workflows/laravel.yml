@@ -42,8 +42,8 @@ jobs:
       - name: Compile assets
         run: npm run build
 
-      - name: Execute tests
-        run: vendor/bin/pest
-
       - name: Create pull request with changes
         uses: peter-evans/create-pull-request@v4
+
+      - name: Execute tests
+        run: vendor/bin/pest
