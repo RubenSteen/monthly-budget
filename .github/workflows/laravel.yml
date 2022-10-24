@@ -44,3 +44,6 @@ jobs:
 
       - name: Execute tests
         run: vendor/bin/pest
+
+      - name: Create pull request with changes
+        uses: peter-evans/create-pull-request@v4
